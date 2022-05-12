@@ -12,7 +12,7 @@ Loppuprojektini Tero Karvisen kurssille
 > Virtuaalikoneet: Master & Minion joissa Linux Debian 11.3  
 > Projektin tila: Alpha
 
-Tätä dokumenttia saa kopioida ja muokata [GNU General Public License](http://www.gnu.org/licenses/gpl.html) (versio 2 tai uudempi) mukaisesti.
+
 
 ---
 
