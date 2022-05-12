@@ -7,7 +7,7 @@ Loppuprojektini Tero Karvisen kurssille
 : [Palvelintenhallinta 2022 Kevät](https://terokarvinen.com/2021/configuration-management-systems-2022-spring/)
 
 > Noora Tiistola  
-> Työasema: i5-7600k, GTX 1660S, 36GB, Win10 pro 21H2  
+> Työasema: i5-7600k, GTX 1660S, 32GB, Win10 pro 21H2  
 > Työkalut: Oracle VM VirtualBox Manager  
 > Virtuaalikoneet: Master & Minion joissa Linux Debian 11.3  
 > Projektin tila: Alpha
