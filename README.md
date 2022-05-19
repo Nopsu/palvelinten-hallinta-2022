@@ -9,31 +9,22 @@ Loppuprojektini Tero Karvisen kurssille
 > Noora Tiistola  
 > Työasema: i5-7600k, GTX 1660S, 32GB, Win10 pro 21H2  
 > Työkalut: Oracle VM VirtualBox Manager  
-> Virtuaalikoneet: Master & Minion joissa Linux Debian 11.3  
+> Virtuaalikoneet: Linux Debian 11.3  
 > Projektin tila: Alpha
 
 
 
 ---
+# [Tekemäni raportti tästä projektista Wordpress sivullani](https://neljakultakalaa.wordpress.com/2022/05/12/h7-oma-moduli/)
 
-Moduulini sisältö:
-- Helloworld
-- Samba
-- Samban asetukset
+<!-- wp:paragraph -->
+<p>Moduulini sisältö:</p>
+<!-- /wp:paragraph -->
 
-Moduulini päätarkoituksena on asentaa palvelinympäristön Linux koneille **Samba** aktiivihakemisto jotta ne voidaan sisällyttää ympäristöön jossa on käytössä Windows aktiivihakemisto. Asennuksen jälkeen voidaan muokata Samban asetuksia sopivaksi.
+<!-- wp:list -->
+<ul><li>Helloworld</li><li>Samba</li><li>Samban asetukset</li></ul>
+<!-- /wp:list -->
 
-Kun asennus ja asetukset ovat kokeiltu toimivaksi, kirjoitetaan infraa koodina ja tehdä asennuksesta Salt-tila, jolla voidaan Master-koneelta asentaa Samba asetuksineen Minion-koneille.
-
-Master-Minion arkkitehtuuria voidaan testata kirjoittamalla Helloworld tyyppinen kokeilu tila, joka tekee yksinkertaisen tekstitiedoston haluttuun hakemistoon.
-
-Projektin to-do:
-- [x] Github sivun avaus
-- [x] Kirjoita alustava kuvaus
-- [ ] Helloworld Salt-tila
-- [ ] Samban asennus Linux-koneelle
-- [ ] Samban asetuksien muuttaminen
-- [ ] Samban toimivuuden testaaminen
-- [ ] Salt-tilan kirjoittaminen
-- [ ] Salt-tilan ajaminen Minion-koneille
-- [ ] Samban toimivuus Minion-koneilla
+<!-- wp:paragraph -->
+<p>Moduulini päätarkoituksena on asentaa palvelinympäristön Linux koneelle <strong>Samba</strong> aktiivihakemisto jotta se voidaan sisällyttää verkkoympäristöön jossa on käytössä myös Windows koneita ja mahdollistaa tiedostojen jakaminen. Asennuksen jälkeen voidaan muokata Samban asetuksia sopivaksi.</p>
+<!-- /wp:paragraph -->
