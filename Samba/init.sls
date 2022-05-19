@@ -7,11 +7,15 @@ samba:
     -  source: salt://samba/smb.conf
 
 #Luodaan jaettava kansio ja testitiedosto
-/Tiedostot/helloworld.txt:
+/Tiedostot:
   file.recurse:
-    - source: salt://samba/helloworld.txt
+    - source: salt://samba/Tiedostot
+    - user: root
+    - group: root
+    - dir_mode: 0755
+    - file_mode: 0755
 
-samba.service:
+nmbd.service:
   service.running:
     - watch:
       -  file: /etc/samba/smb.conf
